@@ -27,3 +27,9 @@ spec:
     kind: Deployment
     jsonPointers:
     - /metadata/annotations/creation
+  - group: ""
+    kind: Secret
+    jsonPointers:
+    - /data/my-password
+
+
